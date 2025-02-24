@@ -8,11 +8,12 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      colors:{
+        'airbnb':'#FF385C',
+        'airbnb-Dark':'#d50027',
+      }
       },
     },
-  },
+  
   plugins: [],
 } satisfies Config;
