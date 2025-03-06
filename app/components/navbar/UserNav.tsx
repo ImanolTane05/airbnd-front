@@ -4,7 +4,7 @@ import { useState } from "react";
 import MenuLink from "./MenuLink";
 
 const UserNav = () => {
-        const [isOpen, setIsOpen] = useState(true);
+        const [isOpen, setIsOpen] = useState(false);
 
     return(
         <div className="p-2 relative inline-block border rounded-full">
